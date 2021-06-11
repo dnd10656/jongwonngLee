@@ -14,7 +14,7 @@
 
 `3차 함수를 기준으로 계획을 해보았습니다.`  
 ``  
-![Uploading KakaoTalk_20210611_183517306.jpg…]()
+![Uploading KakaoTalk_20210611_183517306.jpg…](file:///C:/Users/Administrator/Desktop/KakaoTalk_20210611_183517306.jpg)
  
 
 ### 코드
