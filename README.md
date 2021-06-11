@@ -13,7 +13,7 @@
 
 `3차 함수를 기준으로 계획을 해보았습니다.`  
 ``  
-![][file:///C:/Users/Administrator/Desktop/KakaoTalk_20210611_183517306.jpg]  
+![3차함수][file:///C:/Users/Administrator/Desktop/KakaoTalk_20210611_183517306.jpg]  
 
 ### 코드
 
