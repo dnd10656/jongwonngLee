@@ -32,7 +32,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class simulatedannealing {
-    private ArrayList see = new ArrayList <point> (); //
+    private ArrayList see = new ArrayList <point> ();
     private int point;
 
 
@@ -89,7 +89,7 @@ public class simulatedannealing {
     for(;;){   // for(;;) 무한 반복문입니다.
     if(startpoint = (30,)){  // x의 좌표가 30까지 커졌을 시 
             startpoint = (0,);        // x의 좌표를 다시 0으로 이동시키는 걸 무한 반복하게 됩니다. 
-            if(startpoint = (20,-10) { // 무한 반복을 하는데 결국 (20, -10) 포인트에 도달 시 멈추게 되고
+            if(startpoint = (20,-10)) { // 무한 반복을 하는데 결국 (20, -10) 포인트에 도달 시 멈추게 되고
                 break;                   // 3차 함수의 전역 최적점에 도달할 수 있게 됩니다.
                 
                 long end = System.currentTimeMillis();
@@ -102,7 +102,7 @@ public class simulatedannealing {
 }
 ```
 ---
-#### 사진 첨부가 안되어 인천대학교 학습관리시스템(INU LMS)에 github 사이트 올릴 때 사진을 따로 첨부파일로 올렸습니다. 
+#### 사진 첨부가 안되어 인천대학교 학습관리시스템(INU LMS)에 github 사이트 올릴 때 자바코드와 사진을 따로 첨부파일로 올렸습니다. 
 
 ### 하나의 독립변수로 설명되는 종속변수 데이터를 구한 후 curve fitting을 위한 선형 또는 비선형 모델을 선정한 후에 가장 적합한 파라미터 값을 위에서 구현한 모의담금질 기법을 이용하여 추정하세요.
 
