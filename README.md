@@ -31,7 +31,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class simulatedannealing {
-    private ArrayList see = new ArrayList <point> (); 
+    private ArrayList see = new ArrayList <point> (); //
     private int point;
 
 
@@ -47,19 +47,19 @@ public class simulatedannealing {
     private void point() {
         int startpoint;
         if(point == startpoint) {
-            if(startpoint = (0,0) {
-                if(startpoint = (10,10) {
-                    if(startpoint = (20,-10) {
-                        break;    // 3차 함수를 (0,0), (10,10), (20,-10), (30,10)으로 표현을 해보았습니다.
-                        if(startpoint = (30,10) { //  startpoint 가 (20, -10)에 도착하게 되면 멈추게 됩니다. 
+          if(startpoint = (0,0) {
+             if(startpoint = (10,10) {
+               if(startpoint = (20,-10) {
+                   break;    // 3차 함수를 (0,0), (10,10), (20,-10), (30,10)으로 표현을 해보았습니다.
+                 if(startpoint = (30,10) { //  startpoint 가 (20, -10)에 도착하게 되면 멈추게 됩니다. 
                                                 // 나머지 (0,0), (10,10), (30,10)에 도착 시 if문에 의해서
-                        }                       // 아주 적지만 약간의 딜레이를 주고자 하였습니다.
-                    }                           // 지역 최적점, 지역최고점, 전역 최고점 포인트에 도착 시 
-                }                               // '도착했다'라는 신호를 주고자 하였습니다.
-            }                                   // 특히 (0,0)에서는 지역 최적점이라는 점을 강조하고자 하였습니다.
-        }                                       // 지역 최적점에서 '운 좋게' 탐색하다가 전역 최적점을 발견했다는 걸
+            }                                   // 아주 적지만 약간의 딜레이를 주고자 하였습니다.
+          }                                     // 지역 최적점, 지역최고점, 전역 최고점 포인트에 도착 시 
+        }                                       // '도착했다'라는 신호를 주고자 하였습니다.
+      }                                         // 특히 (0,0)에서는 지역 최적점이라는 점을 강조하고자 하였습니다.
+    }                                           // 지역 최적점에서 '운 좋게' 탐색하다가 전역 최적점을 발견했다는 걸
                                                 // 강조하고싶었습니다.
-    }
+   }
 
     private void printf(String s) {
     }
