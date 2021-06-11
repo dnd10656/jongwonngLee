@@ -31,19 +31,37 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class simulatedannealing {
-    private ArrayList see = new ArrayList <point> ();
+    private ArrayList see = new ArrayList <point> (); 
+    private int point;
 
 
-    public pointy() {
-        return point. y;
+    public int pointy () { // point의 좌표를 가져옵니다.
+        return this. point;
     }
-
-    whlie(point. y >0) {
-       int point = (int )(see point ());
+    public static double check (int pointy, int newpointy){
+        if (pointy == newpointy) {                        // pointy 와 newpointy가 같게되면 멈추게 됩니다.
+        break;                         // pointy 는 (0,100) 점차 낮아지게 되고, newpointy는 (0,-10)입니다.
+        }
     }
 
     private void point() {
+        int startpoint;
+        if(point == startpoint) {
+            if(startpoint = (0,0) {
+                if(startpoint = (10,10) {
+                    if(startpoint = (20,-10) {
+                        break;                  // 3차 함수를 (0,0), (10,10), (20,-10), (30,10)으로 표현을 해보았습니다.
+                        if(startpoint = (30,10) {    //  startpoint 가 (20, -10)에 도착하게 되면 멈추게 됩니다. 
+                                                   // 나머지 (0,0), (10,10), (30,10)에 도착 시 if문에 의해서
+                        }                          // 아주 적지만 약간의 딜레이를 주고자 하였습니다.
+                    }                              // 지역 최적점, 지역최고점, 전역 최고점 포인트에 도착 시 
+                }                                  // '도착했다'라는 신호를 주고자 하였습니다.
+            }                                      // 특히 (0,0)에서는 지역 최적점이라는 점을 강조하고자 하였습니다.
+        }                                          // 지역 최적점에서 '운 좋게' 탐색하다가 전역 최적점을 발견했다는 걸
+                                                   // 강조하고싶었습니다.
+    }
 
+    private void printf(String s) {
     }
 
 
@@ -51,8 +69,29 @@ public class simulatedannealing {
     Point point = new Point(0, 0);
     Point point = new Point(10, 10);
     Point point = new Point(20, -10);
-    Point point = new Point(30, 10);
+    Point point = new Point(30, 10);      //각각의 포인트들을 표현하였습니다.
 
+
+    double startpoint = (0,100);        // 초기해의 위치를 startpoint = (0,100)으로 지정하였습니다.
+    double ydescend = (startpoint / 110);   // ydescend 는 startpoint를 110으로 나눈 것입니다.
+    double pointy = ydescend;             // pointy = ydescend 
+    double xdescend = (1/10);            // xdescend = 1 / 10 x의 감소 확률을 1 / 10 로 표현하고 싶었습니다.
+    for(;;) {                             // for(;;) 를 이용해 무한 반복문을 만들었습니다.
+        for(startpoint = 100; startpoint == -10; startpoint--) { /startpoint가 100에서 시작하여 -10이 될 때까지 점차
+            ydescend = (startpoint / 110);               // 감소하게 됩니다. -10에 도착할 시 ydescend = (startpoint / 110);
+            if(startpoint = (,-10)) {        // y의 감소 확률은 - 1 / 11 로 증가할 수도 있게 됩니다.
+                break;                      // startpoint 가 -10에 도착 시 멈추도록 하고 싶었습니다.
+            }
+        }
+    }
+    for(;;){   // for(;;) 무한 반복문입니다.
+    if(startpoint = (30,)){  // x의 좌표가 30까지 커졌을 시 
+            startpoint = (0,);        // x의 좌표를 다시 0으로 이동시키는 걸 무한 반복하게 됩니다. 
+            if(startpoint = (20,-10) { // 무한 반복을 하는데 결국 (20, -10) 포인트에 도달 시 멈추게 되고
+                break;                   // 3차 함수의 전역 최적점에 도달할 수 있게 됩니다.
+            }
+        }
+    }
 }
 }
 ```
