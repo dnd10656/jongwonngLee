@@ -1,4 +1,5 @@
 
+
 # 기말고사  
 
 ## 201901701 이종웅  
@@ -14,7 +15,8 @@
 
 `3차 함수를 기준으로 계획을 해보았습니다.`  
 ``  
-![Uploading KakaoTalk_20210611_183517306.jpg…](file:///C:/Users/Administrator/Desktop/KakaoTalk_20210611_183517306.jpg)
+![캡처](https://user-images.githubusercontent.com/80937145/121676617-ca99be80-caef-11eb-9512-12cd7099f96b.PNG)
+
  
 
 ### 코드
