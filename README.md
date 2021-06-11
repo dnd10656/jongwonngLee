@@ -117,9 +117,9 @@ public class simulatedannealing {
  
  `성능분석의 경우`
   ```java
-  long start = System.currentTimeMillis(); long end = System.currentTimeMillis(); System.out.println("수행시간 : "+ (end-start)+ "ms");
+  long start = System.currentTimeMillis(); long end = System.currentTimeMillis(); System.out.println("수행시간 : "+ (end-start)+ "ms");  
   ```
-  `을 사용하였습니다.`
-  `코드 오류로 출력은 되지않습니다...`
+  `을 사용하였습니다.`  
+  `코드 오류로 출력은 되지않습니다...`  
  
- `한 학기동안 정말 감사하고 고마웠습니다.`
+ `한 학기동안 정말 감사했습니다!!`  
